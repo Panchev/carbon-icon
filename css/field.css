@@ -1,0 +1,11 @@
+.icons-left-section { float: left; margin-right: 20px; width: 100px; min-height: 100px; }
+.icon-right-section { float: left; }
+.icons-container:after { clear: both; content: ''; display: block; }
+.carbon-field input[type=text].icons-search-field { width: auto; }
+
+.font-awesome-icons { height: 120px; overflow-y: scroll; width: 166px; margin-top: 20px; border: 1px solid #cecece; }
+.icons-container span.no-results { display: none; font-size: 16px; padding-top: 10px; }
+.icons-container span.no-results.visible { display: block; }
+.icons-container .icon-preview { display: block !important; text-align: center; font-size: 20px; width: 20px; height: 20px; padding: 20px; background-color: #cecece; }
+.font-awesome-icons li { list-style: none; font-size: 17px; padding: 5px; text-align: center; cursor: pointer; border-bottom: 1px solid #f5f5f5; }
+.font-awesome-icons li:hover, .font-awesome-icons li.selected { background: #eaeff5; }
